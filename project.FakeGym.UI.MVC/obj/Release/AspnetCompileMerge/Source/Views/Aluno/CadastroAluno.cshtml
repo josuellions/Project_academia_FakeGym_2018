@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Cadastro Aluno";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+<div class="col-sm-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
+
+    <fieldset id="PageCadastro">
+        <legend>Cadastro Aluno</legend>
+        @using (Html.BeginForm("CadastroAluno", "aluno", FormMethod.Post))
+        {
+            <section class="col-sm-6 col-xs-12">
+                @Html.Label("nome_aluno", "Nome:")
+                @Html.TextBox("nome_aluno", null, new { @class = "form-control" })
+            </section>
+            <section class="col-sm-6 col-xs-12">
+                @Html.Label("sobrenome_aluno", "Sobrenome:")
+                @Html.TextBox("sobrenome_aluno", null, new { @class = "form-control" })
+            </section>
+          
+            <section class="col-sm-4 col-xs-12">
+                @Html.Label("dtNasc_aluno", "Data Nascimento:")
+                <input type="date" name="dtNasc_aluno" id="dtNascAluno" class="form-control" />
+            </section>
+            
+            <section class="col-sm-4 col-xs-12">
+                @Html.Label("nome_academina", "Academina")
+                @Html.DropDownList("nome_academia", new List<SelectListItem>{
+                                                                new SelectListItem {Text = "Unidade - 01 ", Value ="1" },
+                                                                new SelectListItem {Text = "Unidade - 02 ", Value ="2" }
+                                                              }, "Selecione...", new { @class = "form-control" })
+            </section>
+            <section class="col-sm-4 col-xs-12">
+                @Html.Label("nome_professor", "Professor")
+                @Html.DropDownList("nome_professor", new List<SelectListItem>{
+                                                                 new SelectListItem {Text = "José Silva ", Value ="1" },
+                                                                 new SelectListItem {Text = "Carlos Alberto ", Value ="1" },
+                                                                 new SelectListItem {Text = "Paulo Silva", Value ="1" },
+                                                                 new SelectListItem {Text = "Roberto Silva ", Value ="1" },
+                                                                 new SelectListItem {Text = "Marcos Borge", Value ="1" },
+                                                               }, "Selecione...", new { @class = "form-control" })
+                </section>
+
+                <section class="col-sm-4 col-xs-12">
+                    @Html.Label("senha_aluno", "Senha:")
+                    @Html.Password("senha_aluno", null, new { @class = "form-control" })
+                </section>
+
+                <section class="col-sm-12">
+                <input type="submit" name="cadastrar" id="btnCadastrar" value="Cadastrar" class="btn btn-primary col-sm-4 col-sm-offset-4 col-xs-12"  />
+                </section>
+                }
+</fieldset>
+</div>

@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Visualizar Treino";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+@using project.FakeGym.Model
+@model List<TreinoMOD>
+
+@if (@Session["nome_aluno"] != null)
+{
+    <div class="col-sm-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
+        @if (TempData["Sucesso"] != null)
+        {
+            @Html.Partial("_PartialSucesso")
+        }
+        else if (TempData["Erro"] != null)
+        {
+            @Html.Partial("_PartialErro")
+        }
+        <fieldset id="PageVizualizar">
+            <legend>Treino Diario</legend>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Professor</th>
+                        <th>Exercicio-01</th>
+                        <th>Exercicio-02</th>
+                        <th>Exercicio-03</th>
+                        <th>Alterar</th>
+                    </tr>
+                    <tr>
+                        @*@foreach (var item in Model)
+                            {
+                                <td>@item.id_treino</td>
+                                <td>@item.exercicio_01</td>
+                                <td>@item.exercicio_02</td>
+                                <td>@item.exercicio_03</td>
+                                <td>@item.status_treino</td>
+                            }*@
+                    </tr>
+                </thead>
+            </table>
+            <section class="col-sm-6 col-sm-offset-6 col-xs-12 alert-info" id="infoVizualizar">
+                <p>Obs.: Aluno pode alterar um dia de treino.</p>
+            </section>
+        </fieldset>
+    </div>
+}

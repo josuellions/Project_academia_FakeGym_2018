@@ -1,0 +1,240 @@
+﻿
+.logomenuFake {
+    margin: 0;
+    width: 97px;
+    height: 47px;
+    padding: 2%;
+    background-color: gainsboro;
+    border-radius: .5rem;
+}
+
+.container-fluid button span.glyphicon {
+    font-size: 3.5rem;
+    color: #1F3574;
+}
+
+#vitrinehome {
+    padding: 1.5px 0;
+}
+
+.tituloHomeEmpresa {
+    margin: 0;
+    color: #d02121;
+    text-align: right;
+}
+
+.SubtituloHomeEmpresa {
+    margin: 0;
+    color: #1F3574;
+    text-align: left;
+}
+
+#vitrinehome img {
+    width: 100%;
+    height: 340px;
+    margin-top: 2.5%;
+}
+
+#vitrinehome ul {
+    list-style: none;
+    margin-top: 1.5%;
+    padding: 0;
+    overflow: hidden;
+}
+
+#vitrinehome h2 {
+    margin: 2.5%;
+    padding: 0;
+}
+
+#vitrinehome ul li {
+    float: left;
+    text-align: center;
+    width: 45%;
+    margin-right: 5%;
+}
+
+    #vitrinehome ul li:last-of-type {
+        margin-right: 0;
+    }
+
+    #vitrinehome ul li p {
+        text-align: left;
+        padding-top: 1.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #vitrinehome ul li img {
+        margin-top: 5% !important;
+    }
+
+#PageCadastro {
+    margin-top: 5%;
+}
+
+    #PageCadastro form section {
+        padding: 2%;
+    }
+
+#btnCadastrar {
+    margin-top: 5%;
+    margin-bottom: 64%;
+}
+
+#PageLogin {
+    margin: 5%;
+}
+
+    #PageLogin form section {
+        padding: 2%;
+    }
+
+
+#btnLogin {
+    margin-top: 5%;
+    margin-bottom: 81.5%;
+}
+
+#PageVizualizar {
+    margin: 5%;
+}
+
+table {
+    margin-top: 2%;
+}
+
+#infoVizualizar {
+    text-align: right;
+    padding: 2%;
+    margin-top: 93.5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    margin: 0;
+    color: #1F3574;
+    text-align: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+@media (max-width: 420px) {
+
+    #vitrinehome {
+        padding: 1.5px 0;
+    }
+
+    .tituloHomeEmpresa {
+        margin: 0;
+        font-size:2.5rem;
+        color: #d02121;
+        text-align: right;
+    }
+
+    .SubtituloHomeEmpresa {
+        margin: 0;
+        font-size:2.5rem;
+        color: #1F3574;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+
+    #vitrinehome img {
+        width: 100%;
+        height: 140px;
+        margin-top: 2.5%;
+    }
+
+    #vitrinehome ul {
+        list-style: none;
+        margin-top: 1.5%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #vitrinehome h2 {
+        margin: 2.5%;
+        padding: 2.5%;
+        font-size: 2rem;
+    }
+
+    #vitrinehome ul li {
+        float: left;
+        text-align: center;
+        width: 45%;
+        margin-right: 5%;
+    }
+
+        #vitrinehome ul li:last-of-type {
+            margin-right: 0;
+        }
+
+        #vitrinehome ul li p {
+            text-align: justify;
+            padding-top: 1.5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            font-size: 1.1rem;
+        }
+
+        #vitrinehome ul li img {
+            margin-top: 5% !important;
+        }
+
+    #PageCadastro {
+        margin-top: 5%;
+    }
+
+        #PageCadastro form section {
+            padding: 2%;
+        }
+
+    #btnCadastrar {
+        margin-top: 15%;
+        margin-bottom: 54%;
+    }
+
+    #PageLogin {
+        margin: 5%;
+    }
+
+        #PageLogin form section {
+            padding: 2%;
+        }
+
+
+    #btnLogin {
+        margin-top: 5%;
+        margin-bottom: 91.5%;
+    }
+
+    #PageVizualizar {
+        margin: 5%;
+    }
+
+    table {
+        margin-top: 2%;
+        font-size: .5rem;
+    }
+
+    #infoVizualizar {
+        text-align: right;
+        padding: 2%;
+        margin-top: 120.5%;
+        margin-bottom: 5%;
+        font-size: 1rem;
+    }
+
+    footer {
+        margin: 0;
+        color: #1F3574;
+        text-align: center;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+}

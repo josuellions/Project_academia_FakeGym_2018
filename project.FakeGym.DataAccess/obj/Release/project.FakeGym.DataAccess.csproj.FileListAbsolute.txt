@@ -1,0 +1,5 @@
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.DataAccess\bin\Release\project.FakeGym.DataAccess.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.DataAccess\bin\Release\project.FakeGym.DataAccess.pdb
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.DataAccess\obj\Release\project.FakeGym.DataAccess.csprojResolveAssemblyReference.cache
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.DataAccess\obj\Release\project.FakeGym.DataAccess.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.DataAccess\obj\Release\project.FakeGym.DataAccess.pdb

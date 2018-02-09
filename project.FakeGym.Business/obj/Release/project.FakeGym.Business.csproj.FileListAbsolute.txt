@@ -1,0 +1,11 @@
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Business.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Business.pdb
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Model.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Repository.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.DataAccess.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Model.pdb
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.Repository.pdb
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\bin\Release\project.FakeGym.DataAccess.pdb
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\obj\Release\project.FakeGym.Business.csprojResolveAssemblyReference.cache
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\obj\Release\project.FakeGym.Business.dll
+E:\CSharp_ASPNET_estudocsa\teste_emprego_24-01-2018\projectFakeGym\project.FakeGym\project.FakeGym.Business\obj\Release\project.FakeGym.Business.pdb

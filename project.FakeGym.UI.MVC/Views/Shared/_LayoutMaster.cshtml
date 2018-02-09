@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Josuel Alves Lopes" />
+
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Assets/PRE-CSS/StyleHomeCustom.css" rel="stylesheet" />
+
+    @* TAG PARA ICON *@
+    <link href="~/Imagens/icon/fakegym.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Imagens/icon/fakegym.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        @Html.Partial("_PartialMenu")
+        <h1 class="tituloHomeEmpresa col-sm-6 col-xs-6">FakeGym</h1>
+        <h1 class="SubtituloHomeEmpresa col-sm-6 col-xs-6">Academia</h1>
+        @RenderBody()
+        <br/>
+        @Html.Partial("_PartialFooter")
+    </div>
+</body>
+</html>
+<script src="~/Scripts/jquery-1.9.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>

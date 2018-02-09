@@ -1,0 +1,45 @@
+﻿<nav class="nav navbar-collapse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="glyphicon glyphicon-align-justify">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </button>
+            <a class="navbar-brand" href="/" title="Logo FakeGym Academia">
+                <img class="logomenuFake" src="~/Imagens/logo/LogoFakeGym.jpg" alt="Logo FakeGym" />
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/Home/Index">Home<span class="sr-only">(current)</span></a></li>
+                @if (@Session["nome_aluno"] != null)
+                {
+                    <li class="active"><a href="#">Olá, @Session["nome_aluno"]<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="Sair/Sair">Sair<span class="sr-only">(current)</span></a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Aréa do Aluno
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Aluno/Listar">Treino do dia</a></li>
+                            <li><a href="#">Alterar Treino </a></li>
+                        </ul>
+                    </li>
+                }
+                @if (@Session["nome_aluno"] == null)
+                {
+                    <li class="active"><a href="/Aluno/Login">Login<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="/Aluno/CadastroAluno">Cadastro<span class="sr-only">(current)</span></a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
