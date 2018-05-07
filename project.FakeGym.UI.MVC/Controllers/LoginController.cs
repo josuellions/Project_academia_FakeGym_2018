@@ -20,6 +20,8 @@ namespace project.FakeGym.UI.MVC.Controllers
         // GET: Login
         private LoginBUS _negocio = new LoginBUS();
 
+        private TreinoBUS _negocioTreino = new TreinoBUS();
+
         public ActionResult Login()
         {
             return View("/Login/Login");
@@ -27,8 +29,13 @@ namespace project.FakeGym.UI.MVC.Controllers
 
         public ActionResult Listar()
         {
-            return View("../Aluno/VisualizarTreino");
+            return View("../Aluno/VisualizarTreino", _negocioTreino.Listar());
         }
+
+        //public ActionResult Listar()
+        //{
+        //    return View("../Aluno/VisualizarTreino");
+        //}
 
         public ActionResult Sair()
         {

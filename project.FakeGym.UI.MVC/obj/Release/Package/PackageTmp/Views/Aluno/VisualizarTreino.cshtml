@@ -3,9 +3,9 @@
     ViewBag.Title = "Visualizar Treino";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
-
 @using project.FakeGym.Model
 @model List<TreinoMOD>
+
 
 @if (@Session["nome_aluno"] != null)
 {
@@ -27,19 +27,28 @@
                         <th>Exercicio-01</th>
                         <th>Exercicio-02</th>
                         <th>Exercicio-03</th>
-                        <th>Alterar</th>
-                    </tr>
-                    <tr>
-                        @*@foreach (var item in Model)
-                            {
-                                <td>@item.id_treino</td>
-                                <td>@item.exercicio_01</td>
-                                <td>@item.exercicio_02</td>
-                                <td>@item.exercicio_03</td>
-                                <td>@item.status_treino</td>
-                            }*@
+                        <th>Modificar</th>
                     </tr>
                 </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>professor</td>
+                            <td>@item.exercicio_01</td>
+                            <td>@item.exercicio_02</td>
+                            <td>@item.exercicio_03</td>
+                            <td>
+                                @if (@item.status_treino == 1)
+                                { <a href="#">Alterar</a> }
+                                else
+                                { <span style="color: red">Alterado</span> }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+
             </table>
             <section class="col-sm-6 col-sm-offset-6 col-xs-12 alert-info" id="infoVizualizar">
                 <p>Obs.: Aluno pode alterar um dia de treino.</p>

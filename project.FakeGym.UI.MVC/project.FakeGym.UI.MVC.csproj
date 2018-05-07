@@ -105,7 +105,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="Properties\PublishProfiles\FakeGym_ver_0.0.3.pubxml" />
+    <None Include="Properties\PublishProfiles\FakeGym_ver_0.0.4.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Imagens\academias\academina_01.jpg" />
     <Content Include="Imagens\academias\academina_02.jpg" />
@@ -142,6 +142,8 @@
     <Content Include="Views\Aluno\VisualizarTreino.cshtml" />
     <Content Include="Views\Shared\_PartialErro.cshtml" />
     <Content Include="Views\Shared\_PartialSucesso.cshtml" />
+    <Content Include="Views\Login\_PartialAlterar.cshtml" />
+    <Content Include="Views\Login\_PartialAlterado.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

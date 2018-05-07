@@ -25,11 +25,11 @@ namespace project.FakeGym.Repository
             {
                 treinos.Add(new TreinoMOD
                 {
-                    id_treino = Convert.ToInt32(item["Id_treino"]),
+                    //id_treino = Convert.ToInt32(item["Id_treino"]),
                     exercicio_01 = item["exercicio_01"].ToString(),
                     exercicio_02 = item["exercicio_02"].ToString(),
                     exercicio_03 = item["exercicio_03"].ToString(),
-                    status_treino = Convert.ToDecimal(item["status_treino"])
+                    status_treino =Convert.ToDecimal( item["status_treino"] )
                 });
             }
 

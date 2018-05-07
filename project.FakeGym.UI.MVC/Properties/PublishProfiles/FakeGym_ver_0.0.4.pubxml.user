@@ -13,7 +13,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/08/2018 05:59:43</publishTime>
     </File>
     <File Include="Assets/PRE-CSS/StyleHomeCustom.css">
-      <publishTime>02/08/2018 23:23:40</publishTime>
+      <publishTime>02/09/2018 17:59:15</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/15/2015 02:06:24</publishTime>
@@ -22,19 +22,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/project.FakeGym.Business.dll">
-      <publishTime>02/09/2018 01:29:02</publishTime>
+      <publishTime>02/09/2018 19:34:29</publishTime>
     </File>
     <File Include="bin/project.FakeGym.DataAccess.dll">
-      <publishTime>02/09/2018 01:29:02</publishTime>
+      <publishTime>02/09/2018 19:34:29</publishTime>
     </File>
     <File Include="bin/project.FakeGym.Model.dll">
       <publishTime>02/08/2018 23:34:27</publishTime>
     </File>
     <File Include="bin/project.FakeGym.Repository.dll">
-      <publishTime>02/09/2018 01:29:02</publishTime>
+      <publishTime>02/09/2018 19:34:29</publishTime>
     </File>
     <File Include="bin/project.FakeGym.UI.MVC.dll">
-      <publishTime>02/09/2018 01:29:05</publishTime>
+      <publishTime>02/09/2018 19:34:33</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -169,16 +169,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/05/2018 15:52:21</publishTime>
     </File>
     <File Include="Views/Aluno/CadastroAluno.cshtml">
-      <publishTime>02/08/2018 22:40:20</publishTime>
+      <publishTime>02/09/2018 18:25:49</publishTime>
     </File>
     <File Include="Views/Aluno/VisualizarTreino.cshtml">
-      <publishTime>02/09/2018 00:48:32</publishTime>
+      <publishTime>02/09/2018 19:33:04</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>02/08/2018 22:26:17</publishTime>
     </File>
     <File Include="Views/Login/Login.cshtml">
-      <publishTime>02/08/2018 22:39:45</publishTime>
+      <publishTime>02/09/2018 17:36:33</publishTime>
+    </File>
+    <File Include="Views/Login/_PartialAlterado.cshtml">
+      <publishTime>02/09/2018 19:07:22</publishTime>
+    </File>
+    <File Include="Views/Login/_PartialAlterar.cshtml">
+      <publishTime>02/09/2018 19:06:24</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutMaster.cshtml">
       <publishTime>02/08/2018 21:24:30</publishTime>
@@ -199,7 +205,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/05/2018 15:44:45</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/09/2018 00:35:36</publishTime>
+      <publishTime>02/09/2018 10:52:57</publishTime>
     </File>
   </ItemGroup>
 </Project>

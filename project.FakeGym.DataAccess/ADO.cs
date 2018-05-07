@@ -10,8 +10,8 @@ namespace project.FakeGym.DataAccess
 {
     public class ADO
     {
-        String _strConn = @"Data Source=DESENVOLWIN10\SQLEXPRESS;Initial Catalog=DBFakeGym;Integrated Security=True;Pooling=False";
-        //String _strConn = @"Server=EC2AMAZ-T69QNCJ\MSSQLSERVER2017;Database=DBFakeGym;Integrated Security = true";
+        //String _strConn = @"Data Source=DESENVOLWIN10\SQLEXPRESS;Initial Catalog=DBFakeGym;Integrated Security=True;Pooling=False";
+        String _strConn = @"Server=EC2AMAZ-T69QNCJ\MSSQLSERVER2017;Database=DBFakeGym;Integrated Security = true";
         public void ExecutarCommando(String sql)
         {
             using (var conexao = new SqlConnection())

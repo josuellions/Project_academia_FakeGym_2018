@@ -17,12 +17,12 @@
                 @Html.Label("sobrenome_aluno", "Sobrenome:")
                 @Html.TextBox("sobrenome_aluno", null, new { @class = "form-control" })
             </section>
-          
+
             <section class="col-sm-4 col-xs-12">
                 @Html.Label("dtNasc_aluno", "Data Nascimento:")
                 <input type="date" name="dtNasc_aluno" id="dtNascAluno" class="form-control" />
             </section>
-            
+
             <section class="col-sm-4 col-xs-12">
                 @Html.Label("nome_academina", "Academina")
                 @Html.DropDownList("nome_academia", new List<SelectListItem>{
@@ -33,22 +33,25 @@
             <section class="col-sm-4 col-xs-12">
                 @Html.Label("nome_professor", "Professor")
                 @Html.DropDownList("nome_professor", new List<SelectListItem>{
-                                                                 new SelectListItem {Text = "José Silva ", Value ="1" },
-                                                                 new SelectListItem {Text = "Carlos Alberto ", Value ="1" },
-                                                                 new SelectListItem {Text = "Paulo Silva", Value ="1" },
-                                                                 new SelectListItem {Text = "Roberto Silva ", Value ="1" },
-                                                                 new SelectListItem {Text = "Marcos Borge", Value ="1" },
+                                                                new SelectListItem {Text = "José Silva ", Value ="1" },
+                                                                new SelectListItem {Text = "Antônio Souza", Value ="2" },
+                                                                new SelectListItem {Text = "Carlos Henrique", Value ="3" },
+                                                                new SelectListItem { Text = "Marcos Borje", Value = "4" },
+                                                                new SelectListItem {Text = "Paulo Silva", Value ="5" },
+                                                                new SelectListItem {Text = "Carlos Alberto ", Value ="7" },
+                                                                new SelectListItem {Text = "Roberto Silva ", Value ="6" },
+                                                                new SelectListItem {Text = "Marcos Borge", Value ="7" },
                                                                }, "Selecione...", new { @class = "form-control" })
-                </section>
+            </section>
 
-                <section class="col-sm-4 col-xs-12">
-                    @Html.Label("senha_aluno", "Senha:")
-                    @Html.Password("senha_aluno", null, new { @class = "form-control" })
-                </section>
+            <section class="col-sm-4 col-xs-12">
+                @Html.Label("senha_aluno", "Senha:")
+                @Html.Password("senha_aluno", null, new { @class = "form-control" })
+            </section>
 
-                <section class="col-sm-12">
-                <input type="submit" name="cadastrar" id="btnCadastrar" value="Cadastrar" class="btn btn-primary col-sm-4 col-sm-offset-4 col-xs-12"  />
-                </section>
-                }
-</fieldset>
+            <section class="col-sm-12">
+                <input type="submit" name="cadastrar" id="btnCadastrar" value="Cadastrar" class="btn btn-primary col-sm-4 col-sm-offset-4 col-xs-12" />
+            </section>
+        }
+    </fieldset>
 </div>

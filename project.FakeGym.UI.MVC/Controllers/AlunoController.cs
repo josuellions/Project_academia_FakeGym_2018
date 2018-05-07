@@ -39,7 +39,7 @@ namespace project.FakeGym.UI.MVC.Controllers
 
         public ActionResult Listar()
         {
-            return View("../Aluno/VisualizarTreino");
+            return View("../Aluno/VisualizarTreino", _negocioTreino.Listar());
         }
 
         public ActionResult Sair()

@@ -79,7 +79,7 @@
 
 #btnCadastrar {
     margin-top: 5%;
-    margin-bottom: 64%;
+    margin-bottom: 60%;
 }
 
 #PageLogin {
@@ -93,7 +93,7 @@
 
 #btnLogin {
     margin-top: 5%;
-    margin-bottom: 81.5%;
+    margin-bottom: 76.8%;
 }
 
 #PageVizualizar {
@@ -107,7 +107,7 @@ table {
 #infoVizualizar {
     text-align: right;
     padding: 2%;
-    margin-top: 93.5%;
+    margin-top: 61.5%;
     margin-bottom: 5%;
 }
 
@@ -194,7 +194,7 @@ footer {
 
     #btnCadastrar {
         margin-top: 15%;
-        margin-bottom: 54%;
+        margin-bottom: 54.4%;
     }
 
     #PageLogin {
@@ -208,7 +208,7 @@ footer {
 
     #btnLogin {
         margin-top: 5%;
-        margin-bottom: 91.5%;
+        margin-bottom: 93%;
     }
 
     #PageVizualizar {
@@ -223,7 +223,7 @@ footer {
     #infoVizualizar {
         text-align: right;
         padding: 2%;
-        margin-top: 120.5%;
+        margin-top: 63%;
         margin-bottom: 5%;
         font-size: 1rem;
     }
